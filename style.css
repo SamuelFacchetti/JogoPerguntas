@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+.content{
+	position: absolute;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	left: 0;
+	background-image: linear-gradient(180deg, #2C2B52 0%, #1E1A40 100%);
+}
+
+.qrcode{
+	background-image: url(https://psycatgames.com/app/never-have-i-ever/img/confetti.svg);
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 100%;
+	background-color: #161534;
+	color: #FFFFFF;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.qrcode h2, .qrcode h3{
+	margin: 0 0 20px;
+	letter-spacing: 3px;
+}
+
+.qrcode p{
+	margin: 15px 0 0;
+}
+
+.qrcode img{
+	width: 300px;
+	border-radius: 20px;
+}
